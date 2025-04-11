@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* width: 100vw; */
+            height: 100vh;
+        }
+        .container{
+            width: 500px;
+            border: 1px solid;
+            padding: 8px;
+        }
+        .in{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .butn{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="in">
+        <input type="text" name="" id="in1">
+        <input type="text" name="" id="in3">
+        <input type="text" name="" id="in2">
+    </div>
+
+    <div class="butn">
+        <button id="0">0</button>
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3" >3</button>
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <button id="division">/</button>
+        <button id="multiple">*</button>
+        <button id="sub">-</button>
+        <button id="add">+</button>
+        <button id="equal">=</button>
+        <button id="clear">c</button>
+    </div>
+</div>
+
+<script src="./dom.js"></script>
+</body>
+</html>
